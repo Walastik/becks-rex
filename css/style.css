@@ -1,0 +1,17 @@
+/* Custom Styles for Beck's Rex */
+
+body {
+    /* You can set a default font here if you like */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    /* Add a smooth transition for the hover effect */
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.card:hover {
+    /* Make the card "lift" and add a more pronounced shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
